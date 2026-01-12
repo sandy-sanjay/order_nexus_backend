@@ -22,7 +22,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 
         return User.builder()
                 .username(user.getUsername())
-                .password(user.getPassword())   // ✅ BCrypt password from DB
+                .password(user.getPassword())
                 .roles(user.getRole())
                 .build();
     }
