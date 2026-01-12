@@ -44,8 +44,7 @@ public class SecurityConfig {
                         // ✅ allow login + register
                         .requestMatchers("/api/auth/**").permitAll()
                         .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
-                        .anyRequest().authenticated()
-                )
+                        .anyRequest().authenticated())
                 .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
@@ -72,8 +71,9 @@ public class SecurityConfig {
                 .map(String::trim)
                 .toList();
 
-        config.setAllowedOrigins(origins);
-        config.setAllowedMethods(List.of("GET","POST","PUT","DELETE","OPTIONS"));
+        // ✅ Use allowedOriginPatterns for wildcards (Vercel)
+        config.setAllowedOriginPatterns(origins);
+        config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true);
 
