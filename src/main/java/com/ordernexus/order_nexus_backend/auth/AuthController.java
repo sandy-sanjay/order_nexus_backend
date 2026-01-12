@@ -29,6 +29,9 @@ public class AuthController {
             return ResponseEntity.badRequest().body("User already exists");
         }
 
+        // ✅ FORCE ROLE TO USER (Security Fix)
+        user.setRole("USER");
+
         authService.save(user);
         return ResponseEntity.ok("User registered successfully");
     }
