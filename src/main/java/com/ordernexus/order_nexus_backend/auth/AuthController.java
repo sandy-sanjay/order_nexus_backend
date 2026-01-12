@@ -37,18 +37,23 @@ public class AuthController {
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody LoginRequest request) {
 
+        System.out.println("Login request received for: " + request.getUsername());
+
         var userOpt = authService.findByUsername(request.getUsername());
 
         if (userOpt.isEmpty()) {
+            System.out.println("User not found: " + request.getUsername());
             return ResponseEntity.status(401).body("Invalid credentials");
         }
 
         AuthUser user = userOpt.get();
 
         if (!passwordEncoder.matches(request.getPassword(), user.getPassword())) {
+            System.out.println("Password mismatch for: " + request.getUsername());
             return ResponseEntity.status(401).body("Invalid credentials");
         }
 
+        System.out.println("Login successful for: " + request.getUsername());
         String token = jwtUtil.generateToken(user.getUsername());
         return ResponseEntity.ok(new LoginResponse(token, user.getUsername(), user.getRole()));
     }
