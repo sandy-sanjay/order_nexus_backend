@@ -41,11 +41,10 @@ public class ProductController {
     }
 
     // ✅ ADD STOCK (PUT)
-    @PutMapping("/{id}")
+    @PutMapping("/{id}/stock")
     public Product addStock(
             @PathVariable Long id,
-            @RequestBody StockUpdateRequest request
-    ) {
+            @RequestBody StockUpdateRequest request) {
         System.out.println("🔥 ADD STOCK HIT: id=" + id + ", qty=" + request.getQuantity());
         return productService.updateProduct(id, request.getQuantity());
     }
