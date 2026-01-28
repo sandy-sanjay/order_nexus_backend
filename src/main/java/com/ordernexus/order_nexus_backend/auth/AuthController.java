@@ -8,10 +8,13 @@ import com.google.api.client.json.gson.GsonFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+import jakarta.validation.Valid;
 
 import java.util.Collections;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/auth")
@@ -78,7 +81,15 @@ public class AuthController {
 
     // ✅ REGISTER
     @PostMapping("/register")
-    public ResponseEntity<?> register(@RequestBody AuthUser user) {
+    public ResponseEntity<?> register(@Valid @RequestBody AuthUser user, BindingResult result) {
+
+        // Handle validation errors
+        if (result.hasErrors()) {
+            String errorMessage = result.getFieldErrors().stream()
+                    .map(error -> error.getDefaultMessage())
+                    .collect(Collectors.joining(", "));
+            return ResponseEntity.badRequest().body(errorMessage);
+        }
 
         if (authService.findByUsername(user.getUsername()).isPresent()) {
             return ResponseEntity.badRequest().body("User already exists");
