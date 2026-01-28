@@ -1,0 +1,121 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.ordernexus:order-nexus-backend >-----------------
+[INFO] Building order-nexus-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ order-nexus-backend ---
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ order-nexus-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 39 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[20,1] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[20,13] > expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[22,5] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[46,1] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[46,3] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[46,5] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[46,7] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[48,5] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[47,17] ';' expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[49,1] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[49,4] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[49,7] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[49,20] ';' expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[71,1] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[71,13] > expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[74,5] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[105,1] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[106,15] <identifier> expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[108,5] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[108,31] <identifier> expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[44,3] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[44,5] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[46,41] > or ',' expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[65,3] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[65,5] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[65,7] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[67,25] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[69,4] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[69,7] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[70,54] ';' expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductService.java:[43,1] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductService.java:[43,13] > expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductService.java:[45,5] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductService.java:[56,1] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductService.java:[57,15] <identifier> expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductService.java:[57,20] <identifier> expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[19,1] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[19,3] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[19,5] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[20,9] > or ',' expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[31,1] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[32,39] <identifier> expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[32,40] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[54,1] class, interface, enum, or record expected
+[INFO] 44 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.026 s
+[INFO] Finished at: 2026-01-28T13:50:58+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project order-nexus-backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[20,1] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[20,13] > expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[22,5] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[46,1] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[46,3] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[46,5] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[46,7] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[48,5] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[47,17] ';' expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[49,1] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[49,4] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[49,7] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[49,20] ';' expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[71,1] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[71,13] > expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[74,5] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[105,1] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[106,15] <identifier> expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[108,5] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductController.java:[108,31] <identifier> expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[44,3] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[44,5] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[46,41] > or ',' expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[65,3] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[65,5] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[65,7] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[67,25] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[69,4] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[69,7] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/security/SecurityConfig.java:[70,54] ';' expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductService.java:[43,1] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductService.java:[43,13] > expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductService.java:[45,5] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductService.java:[56,1] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductService.java:[57,15] <identifier> expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/inventory/ProductService.java:[57,20] <identifier> expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[19,1] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[19,3] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[19,5] illegal start of expression
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[20,9] > or ',' expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[31,1] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[32,39] <identifier> expected
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[32,40] illegal start of type
+[ERROR] /C:/Users/Sanjay/OneDrive/New folder/OneDrive/Documents/Order-Nexus-Full/order_nexus_backend-main/order_nexus_backend-main/src/main/java/com/ordernexus/order_nexus_backend/config/DataSeeder.java:[54,1] class, interface, enum, or record expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

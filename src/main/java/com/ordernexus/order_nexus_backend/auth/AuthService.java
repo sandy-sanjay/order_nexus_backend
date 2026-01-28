@@ -1,6 +1,5 @@
 package com.ordernexus.order_nexus_backend.auth;
 
-
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +16,9 @@ public class AuthService {
     private PasswordEncoder encoder;
 
     public AuthUser save(AuthUser user) {
-        user.setPassword(encoder.encode(user.getPassword()));
+        if (user.getPassword() != null) {
+            user.setPassword(encoder.encode(user.getPassword()));
+        }
         return repository.save(user);
     }
 

@@ -26,5 +26,4 @@ public class DataSeeder implements CommandLineRunner {
             System.out.println("✅ Authorization: Admin user created (" + adminEmail + "/admin123)");
         }
     }
-
 }

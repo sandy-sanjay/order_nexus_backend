@@ -60,7 +60,6 @@ public class SecurityConfig {
                         .requestMatchers("/api/orders/my").authenticated()
                         .requestMatchers(HttpMethod.POST, "/api/orders").authenticated()
                         .requestMatchers("/api/notifications/**").authenticated()
-
                         .anyRequest().authenticated())
                 .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
 
