@@ -130,4 +130,36 @@ public class AuthController {
         String token = jwtUtil.generateToken(user.getUsername());
         return ResponseEntity.ok(new LoginResponse(token, user.getUsername(), user.getRole()));
     }
+
+    // ✅ VERIFY TOKEN
+    @GetMapping("/verify")
+    public ResponseEntity<?> verifyToken(@RequestHeader("Authorization") String authHeader) {
+        try {
+            // Extract token from "Bearer <token>"
+            if (authHeader == null || !authHeader.startsWith("Bearer ")) {
+                return ResponseEntity.status(401).body("Missing or invalid Authorization header");
+            }
+
+            String token = authHeader.substring(7);
+            String username = jwtUtil.extractUsername(token);
+
+            // Validate token and check if user exists
+            if (jwtUtil.isTokenExpired(token)) {
+                return ResponseEntity.status(401).body("Token has expired");
+            }
+
+            var userOpt = authService.findByUsername(username);
+            if (userOpt.isEmpty()) {
+                return ResponseEntity.status(401).body("User not found");
+            }
+
+            AuthUser user = userOpt.get();
+
+            // Return user details if token is valid
+            return ResponseEntity.ok(new LoginResponse(token, user.getUsername(), user.getRole()));
+
+        } catch (Exception e) {
+            return ResponseEntity.status(401).body("Invalid token: " + e.getMessage());
+        }
+    }
 }
